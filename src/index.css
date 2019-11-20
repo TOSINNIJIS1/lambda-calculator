@@ -10,3 +10,75 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.App {
+  display: flex;
+  flex-direction: column;
+  max-width: 95%;
+}
+
+
+.buttonsContainer {
+  display: flex;
+  width: 100%;
+}
+.logo-container {
+  margin: 2% 0 0 50px;
+}
+
+
+.displayContainer {
+  max-width: 40%;
+  width: 40%;
+  margin-left: 8%;
+}
+
+.Integers, .characters  {
+  border: 1px gray solid;
+  border-radius: 10px;
+  width: 100%;
+  margin-left: 20%;
+}
+
+.Operate {
+  width: 20%;
+  margin-left: 40%;
+}
+
+.right {
+  max-width: 100%;
+  width: 30%;
+  margin: 6% 1% 0 10%;
+}
+
+.left {
+  width: 10%;
+  margin: 6% 6% 0 0;
+}
+
+
+.btn {
+  border: solid;
+  color: white;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin: 0%;
+  
+}
+
+
+.operBtn, .specButton, .numButton {
+  color: black;
+}
+
+.operBtn {
+  background-color: rgb(71, 123, 190);
+}
+
+
+.btn:hover {
+  color: white;
+  background: black;
+} 
+
